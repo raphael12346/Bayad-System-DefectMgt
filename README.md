@@ -1,2 +1,2 @@
-# DefectMgt
-Defect Management repository
+# Bayad System-DefectMgt
+Defect Management repository for Bayad System
