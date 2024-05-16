@@ -1,0 +1,36 @@
+BayadSystem [User Sign-in]: Sign-in bypass validation
+
+[Summary]
+Can login to the system regardless of entering email and password.
+
+[Precondition]
+- Email must be registered.
+- Password must be correct and corresponds with the user email.
+
+[Steps to reproduce]
+ 1. Visit the mobile app
+ 2. Click sign in button 
+
+[Actual results]
+The user is redirected to the landing page, even without entering an email address or password.
+
+[Expected results]
+The user is redirected to the landing page. The system should prevent login attempts without a valid email address and password. The user should receive an error message indicating invalid credentials.
+
+[Is this Breakage?]
+ No, new implementation
+
+[Severity: How does this problem impact the customer/user?]
+ 1. Security Risk, unauthorized access is possible
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+none
+
+[Impact Sizing (in days)]
+ More than a day (critical security issue)

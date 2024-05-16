@@ -1,0 +1,41 @@
+BayadSystem [Delete Product]: Add and Delete Buttons Overlap
+
+[Summary]
+The "Add Product" and "Delete Product" buttons overlap when attempting to delete the bottom product on the product list. This overlap makes it difficult to select the "Delete Product" button.
+
+[Precondition]
+- User must be logged in
+- A product must be present
+
+[Steps to reproduce]
+ 1. Visit the mobile app
+ 2. Login using your account
+ 3. In the footer navigation bar, click the products menu.
+ 4. Select the bottom product on the list, swipe left
+
+[Actual results]
+The "Add Product" and "Delete Product" buttons overlap, making it difficult to click the delete button.
+
+[Expected results]
+The buttons should be positioned with sufficient spacing to allow users to tap the "Delete" button for the bottom product without interference from the "Add Product" button.
+
+[Additional information]
+ See attached logs, screenshot...
+
+[Is this Breakage?]
+ No, new implementation
+
+[Severity: How does this problem impact the customer/user?]
+ 6. Moderate, users can still delete but with some difficulty
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate, if users frequently manage the product list
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+none
+
+[Impact Sizing (in days)]
+Less than a day

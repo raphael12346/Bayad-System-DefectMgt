@@ -1,0 +1,42 @@
+BayadSystem [Search Product]: Search product function not working
+
+[Summary]
+Search product function is not working as expected. 
+
+[Precondition]
+- User must be logged in
+- A product must be present
+
+[Steps to reproduce]
+ 1. Visit the mobile app
+ 2. Login using your account
+ 3. In the footer navigation bar, click the products menu.
+ 4. Select the search bar
+ 5. Enter product name
+
+[Actual results]
+The same list of products is displayed regardless of the search term entered.
+
+[Expected results]
+The search function should dynamically update and display a refined list of results that are relevant to the search term.
+
+[Additional information]
+ See attached logs, screenshot...
+
+[Is this Breakage?]
+ No, new implementation
+
+[Severity: How does this problem impact the customer/user?]
+ 6. Moderate
+ 
+[Likelihood: How often will a customer/user use this feature/function?]
+ 6. Moderate, users might frequently use search to find specific product
+
+[Repeatability: Is this problem easily reproducible?]
+ 10. 100% Reproducible
+
+[Impacted Test Cases]
+none
+
+[Impact Sizing (in days)]
+Less than a day
